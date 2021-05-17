@@ -1,0 +1,348 @@
+{% set title = "hotels.html" %}
+
+
+{% extends "main.tpl" %} {% block content %}
+<div>
+  <div class="page">
+    <div class="page-head">
+      <div class="page-header">
+        {%include "components/header.html" %}
+      </div>
+      <section class="banner">
+        <div class="banner-filter"></div>
+        <div class="banner-bg" style="background-image:url('../../images/jpg/h1.jfif')"></div>
+        <div class="wrap">
+          <div class="banner-inner">
+            <div class="banner-text">
+              <!-- <div class="banner-type">Литературный концерт •12+</div> -->
+              <h1 class="banner-title m-b-10">Отели</h1>
+              <div class="banner-descr">Проникновенный литературный концерт выдающейся Дины Рубиной — одной из самых
+                читаемых
+                современных авторов, <br> лауреата многих престижных международных премий, чьи книги переведены на 38
+                языков
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+</div>
+<div class="myContainer">
+  <section class="row">
+    <div class="col-md-12">
+      <div class="m-b-20">
+        <h2 class="m-b-20">О туры</h2>
+        <div class="m-b-10 text">
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut commodi voluptas nostrum et quod soluta aperiam
+            voluptatum nam vel provident at voluptate sequi, placeat quos voluptatibus dolorum nesciunt sit? Ex?
+          </p>
+
+        </div>
+        <div class="toggle-content">
+          <p class="m-b-10">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, beatae unde? Saepe expedita quia maxime
+            blanditiis optio aliquid pariatur cupiditate temporibus suscipit impedit, hic deleniti voluptates, adipisci,
+            non
+            beatae illo!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, beatae unde? Saepe expedita quia maxime
+            blanditiis optio aliquid pariatur cupiditate temporibus suscipit impedit, hic deleniti voluptates, adipisci,
+            non
+            beatae illo!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, beatae unde? Saepe expedita quia maxime
+            blanditiis optio aliquid pariatur cupiditate temporibus suscipit impedit, hic deleniti voluptates, adipisci,
+            non
+            beatae illo!
+          </p>
+        </div>
+        <div class="toggle-btn">
+          <div class="show">
+            Читать далее
+          </div>
+
+        </div>
+        <div class="hide">
+          Свернуть
+        </div>
+        <div></div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="tours-card cardHeight m-b-20">
+        <img src="../../images/jpg/h1.jfif" alt="">
+        <div class="tours-Card-info">
+          <div class="tours-card-title">Отели</div>
+          <p class="tours-card-text">
+            Lorem Ipsum is simply dummy text from the printing and typeseting industry
+          </p>
+          <button class="tours-Card-btn"> Read More</button>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="tours-card cardHeight m-b-20">
+        <img src="../../images/jpg/h2.jfif" alt="">
+        <div class="tours-Card-info">
+          <div class="tours-card-title">Отели</div>
+          <p class="tours-card-text">
+            Lorem Ipsum is simply dummy text from the printing and typeseting industry
+          </p>
+          <button class="tours-Card-btn"> Read More</button>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="tours-card cardHeight m-b-20">
+        <img src="../../images/jpg/h3.jfif" alt="">
+        <div class="tours-Card-info">
+          <div class="tours-card-title">Отели</div>
+          <p class="tours-card-text">
+            Lorem Ipsum is simply dummy text from the printing and typeseting industry
+          </p>
+          <button class="tours-Card-btn"> Read More</button>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-12  m-t-40">
+      <div class="info-time m-b-20">
+        <div class="time-info">Исполнение</div>
+        <div>живой звук</div>
+      </div>
+      <div class="info-pays m-b-20">
+        <div>Способы оплаты</div>
+        <ul class="pays">
+          <li> <a href="#!">Humo</a> </li>
+          <li> <a href="#!">UzCard</a> </li>
+          <li> <a href="#!">Payme</a> </li>
+          <li> <a href="#!">Наличные</a> </li>
+          <li> <a href="#!">Click</a> </li>
+        </ul>
+      </div>
+      <div class="info-time m-b-20">
+        <div class="time-info">Продолжительность</div>
+        <div>3 часа</div>
+      </div>
+      <div class="info-ticket ">
+        <div class="ticket-info">Источник</div>
+        <div><a href=" iticket.uz"> iticket.uz</a></div>
+      </div>
+      <div></div>
+    </div>
+  </section>
+  <section class="row m-t-40">
+    <div class="col-md-6">
+      <h2 class="m-b-20">Видео</h2>
+      <iframe width="100%" height="400" src="https://www.youtube.com/embed/tgbNymZ7vqY">
+      </iframe>
+      <!-- <div class="tours-video hotels-video">
+        <div class="video">
+          <video id="video" controls poster="../../images/jpg/malaysia.jfif ">
+            <source src="../../video/Lesson 1. Introduction.mp4" type="video/mp4">
+          </video>
+        </div>
+
+        <div class="play-icon">
+          <svg width="80" height="57" viewBox="0 0 80 57" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path class="yt-bg"
+              d="M78.3517 8.79598C77.4295 5.36887 74.7275 2.66747 71.301 1.74462C65.0406 0.0313721 39.9992 0.0313721 39.9992 0.0313721C39.9992 0.0313721 14.9584 0.0313721 8.69808 1.67931C5.3375 2.60155 2.56957 5.36948 1.64733 8.79598C0 15.0557 0 28.0378 0 28.0378C0 28.0378 0 41.0853 1.64733 47.2797C2.57018 50.7062 5.27158 53.4082 8.69869 54.331C15.0244 56.0443 39.9998 56.0443 39.9998 56.0443C39.9998 56.0443 65.0406 56.0443 71.301 54.3964C74.7281 53.4741 77.4295 50.7721 78.3523 47.3456C79.9997 41.0853 79.9997 28.1038 79.9997 28.1038C79.9997 28.1038 80.0656 15.0557 78.3517 8.79598Z"
+              fill="#222222"></path>
+            <path d="M32.0261 40.0313L52.8495 28.0379L32.0261 16.0445V40.0313Z" fill="white"></path>
+          </svg>
+        </div>
+      </div> -->
+    </div>
+    <div class="col-md-6">
+      <h2 class="m-b-20">Видео</h2>
+      <iframe width="100% " height="400" src="https://www.youtube.com/embed/tgbNymZ7vqY">
+      </iframe>
+      <!-- <div class="tours-video hotels-video">
+        <div class="video">
+          <video id="video" controls poster="../../images/jpg/malaysia.jfif">
+            <source src="../../video/Lesson 1. Introduction.mp4" type="video/mp4">
+          </video>
+        </div>
+
+        <div class="play-icon">
+          <svg width="80" height="57" viewBox="0 0 80 57" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path class="yt-bg"
+              d="M78.3517 8.79598C77.4295 5.36887 74.7275 2.66747 71.301 1.74462C65.0406 0.0313721 39.9992 0.0313721 39.9992 0.0313721C39.9992 0.0313721 14.9584 0.0313721 8.69808 1.67931C5.3375 2.60155 2.56957 5.36948 1.64733 8.79598C0 15.0557 0 28.0378 0 28.0378C0 28.0378 0 41.0853 1.64733 47.2797C2.57018 50.7062 5.27158 53.4082 8.69869 54.331C15.0244 56.0443 39.9998 56.0443 39.9998 56.0443C39.9998 56.0443 65.0406 56.0443 71.301 54.3964C74.7281 53.4741 77.4295 50.7721 78.3523 47.3456C79.9997 41.0853 79.9997 28.1038 79.9997 28.1038C79.9997 28.1038 80.0656 15.0557 78.3517 8.79598Z"
+              fill="#222222"></path>
+            <path d="M32.0261 40.0313L52.8495 28.0379L32.0261 16.0445V40.0313Z" fill="white"></path>
+          </svg>
+        </div>
+      </div> -->
+    </div>
+
+  </section>
+  <section class="row m-t-40">
+    <div class="col-md-8">
+      <div>
+        <h2 class="m-b-20">Адрес</h2>
+        <div class="m-b-20">
+          <div style="width: 100%"><iframe width="100%" height="600" frameborder="0" scrolling="no" marginheight="0"
+              marginwidth="0"
+              src="https://maps.google.com/maps?width=100%25&amp;height=450&amp;hl=en&amp;q=samarkhand,%20registon,uzbekistan+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a
+              href="https://www.maps.ie/draw-radius-circle-map/"></a></div>
+        </div>
+        <div>
+          <div class="info-pays m-b-20">
+            <div>Станции метро</div>
+            <ul class="pays">
+              <li> <a href="#!">Мустакиллик майдони 640 м </a> </li>
+              <li> <a href="#!"> Космонавтлар 910 м</a> </li>
+            </ul>
+          </div>
+          <div class="info-time m-b-20">
+            <div class="time-info">Ориентиры</div>
+            <div>Филармония</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 m-t-40">
+      <div>
+        <div class="address-info">
+          <div>Концертный зал</div>
+          <div><a href="#!">Дворец искусств «Туркистон»</a></div>
+        </div>
+        <div class="address-info">
+          <div> <strong>Адрес</strong> </div>
+          <div>Ташкент, Юнусабадский р-н, ул. Навои, 2</div>
+          <div><a href="#!">dinarubina</a></div>
+          <div class="m-t-40">
+            <div class="footer-social-wrap d-flex">
+              <a class="footer-social-link" href="#!"><img src="../../../images/png/facebook.png" alt=""></a>
+              <a class="footer-social-link" href="#!"><img src="../../../images/png/instagram.png" alt=""></a>
+              <a class="footer-social-link" href="#!"><img src="../../../images/png/telegram.png" alt=""></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="row m-t-40">
+    <div class="col-md-12">
+      <h2 class="m-b-20">Расписание</h2>
+      <div> Май</div>
+      <hr>
+    </div>
+    <div class="col-md-6">
+      <div class="planning">
+        <div class="planning-inner">
+          <div class="planning-date">18</div>
+          <div>
+            <div>ВТОРНИК</div>
+            <div> <strong>мая</strong> </div>
+          </div>
+        </div>
+        <div>19:00</div>
+        <div>
+          <div class="m-b-5">ЛИТЕРАТУРНЫЙ КОНЦЕРТ</div>
+          <div class="planning-address"><a href="#!">Дворец искусств «Туркистон»</a></div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="ticket-sum"><a href="#!">от 150 000 UZS</a></div>
+    </div>
+    <div class="col-md-12">
+      <hr>
+    </div>
+  </section>
+  <section class="row m-t-40">
+    <div class="col-md-12">
+      <div class="card-title2">
+        <div class="title-card">Обратите внимание</div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="tours-card cardHeight m-b-20">
+        <img src="../../images/jpg/h1.jfif" alt="">
+        <div class="tours-Card-info">
+          <div class="tours-card-title">Отели</div>
+          <p class="tours-card-text">
+            Lorem Ipsum is simply dummy text from the printing and typeseting industry
+          </p>
+          <button class="tours-Card-btn"> Read More</button>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="tours-card cardHeight m-b-20">
+        <img src="../../images/jpg/h1.jfif" alt="">
+        <div class="tours-Card-info">
+          <div class="tours-card-title">Отели</div>
+          <p class="tours-card-text">
+            Lorem Ipsum is simply dummy text from the printing and typeseting industry
+          </p>
+          <button class="tours-Card-btn"> Read More</button>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="tours-card cardHeight m-b-20">
+        <img src="../../images/jpg/h1.jfif" alt="">
+        <div class="tours-Card-info">
+          <div class="tours-card-title">Отели</div>
+          <p class="tours-card-text">
+            Lorem Ipsum is simply dummy text from the printing and typeseting industry
+          </p>
+          <button class="tours-Card-btn"> Read More</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="m-t-40">
+    <div class="card-title">
+      <div class="title-card">Туры</div>
+      <div><a class="card-sublink" href="#!">Смотреть все</a></div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12 col-md-4">
+
+        <div class="tours-card m-t-40">
+          <img src="../../images/jpg/xiva.jfif" alt="">
+          <div class="tours-Card-info">
+            <div class="tours-card-title">Xiva</div>
+            <p class="tours-card-text">
+              Lorem Ipsum is simply dummy text from the printing and typeseting industry
+            </p>
+            <button class="tours-Card-btn"> Read More</button>
+          </div>
+        </div>
+
+      </div>
+      <div class="col-sm-12 col-md-4">
+        <div class="tours-card m-t-40">
+          <img src="../../images/jpg/buxoro.jfif" alt="">
+          <div class="tours-Card-info">
+            <div class="tours-card-title">Bukhoro</div>
+            <p class="tours-card-text">
+              Lorem Ipsum is simply dummy text from the printing and typeseting industry
+            </p>
+            <button class="tours-Card-btn"> Read More</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-4">
+        <div class="tours-card m-t-40">
+          <img src="../../images/jpg/samarqand.jfif" alt="">
+          <div class="tours-Card-info">
+            <div class="tours-card-title">Samarkhand</div>
+            <p class="tours-card-text">
+              Lorem Ipsum is simply dummy text from the printing and typeseting industry
+            </p>
+            <button class="tours-Card-btn"> Read More</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+</div>
+
+
+{% include "components/footer.html" %}
+
+{%endblock %}
